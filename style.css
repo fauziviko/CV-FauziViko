@@ -1,0 +1,47 @@
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #ffffff;
+    color: #3f444b;
+}
+
+/* Skills */
+
+.skills-section .progress-bar{
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.skills-section .progress-bar .progress{
+    background-color: orangered;
+}
+
+/* Footer */
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcon{
+    justify-content: center;
+}
+.socialIcon a i{
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+
